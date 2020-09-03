@@ -1,1 +1,1 @@
-Coding02 assignment, classes and bjects refresher assignment.
+Coding02 assignment, classes and objects refresher assignment.
