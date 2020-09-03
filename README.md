@@ -1,2 +1,1 @@
-# blank
-blank repo with only a readme
+Coding02 assignment, classes and bjects refresher assignment.
