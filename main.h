@@ -7,8 +7,8 @@ Purpose: Classes and objects refresher assignment.
 #ifndef MAIN_CLASSES_H
 #define MAIN_CLASSES_H
 
-#include "spaceship.h"
 #include "fighterShip.h"
+#include "functions.h"
 
 #include <iostream>
 using std::cout;
