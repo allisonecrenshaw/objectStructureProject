@@ -16,9 +16,9 @@ public:
     ~Fightership();
 
     // Getters
-    int getFightPower;
-    int getExtraSpeed;
-    int getTurboSpeed;
+    int getFightPower();
+    int getExtraSpeed();
+    int getTurboSpeed();
 
     // Setters
     void setFightPower();
