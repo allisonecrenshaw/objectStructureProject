@@ -13,5 +13,6 @@ using std::cout;
 using std::endl;
 
 void displaySpaceship(Spaceship*);
+void displayFightership(Fightership*);
 
 #endif

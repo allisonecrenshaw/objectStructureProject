@@ -11,3 +11,10 @@ void displaySpaceship(Spaceship *mySpaceship) {
     cout << "Engine Power: " << mySpaceship->getEnginePower() << endl;
     cout << "Speed: " << mySpaceship->getSpeed() << endl;
 }
+
+void displayFightership(Fightership *myFightership) {
+    cout << "Weight: " << myFightership->getWeight() << endl;
+    cout << "Engine Power: " << myFightership->getEnginePower() << endl;
+    cout << "Speed: " << myFightership->getSpeed() << endl;
+    cout << "Fighter Power: " << myFightership->getFightPower() << endl;
+}
