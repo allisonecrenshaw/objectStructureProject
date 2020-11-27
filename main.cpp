@@ -14,10 +14,10 @@ int main() {
     cout << "Start Spaceship Program." << endl;
     cout << line;
 
-    cout << "Creating new Spaceship w/o attributes: " << endl;
+    cout << "Creating new Spaceship w/o attributes." << endl;
     Spaceship ship1;
 
-    cout << "Creating new Spaceship with attributes: " << endl;
+    cout << "Creating new Spaceship with attributes." << endl;
     Spaceship ship2(3, 10);
 
     cout << endl;
@@ -25,10 +25,21 @@ int main() {
     displaySpaceship(&ship1);
     cout << endl;
     cout << "Displaying characteristics of Ship 2: " << endl;
-    displaySpaceship(&ship1);
+    displaySpaceship(&ship2);
     cout << endl;
 
-    cout << "Code for fighter ships display will go here." << endl;
+    cout << "Creating new Fightership w/o attributes." << endl;
+    Fightership ship3;
+
+    cout << "Creating new Fightership with attributes." << endl;
+    Fightership ship4(3, 10, 2, 4);
+
+    cout << endl;
+    cout << "Displaying characteristics of Ship 3: " << endl;
+    displayFightership(&ship3);
+    cout << endl;
+    cout << "Displaying characteristics of Ship 4: " << endl;
+    displayFightership(&ship4);
     cout << endl;
 
     cout << "fin." << endl;
