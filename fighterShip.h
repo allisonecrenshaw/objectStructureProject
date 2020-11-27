@@ -21,8 +21,8 @@ public:
     int getTurboSpeed();
 
     // Setters
-    void setFightPower();
-    void setExtraSpeed();
+    void setFightPower(int);
+    void setExtraSpeed(int);
 
 private:
     int fightPower;
