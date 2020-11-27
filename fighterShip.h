@@ -18,7 +18,7 @@ public:
     // Getters
     int getFightPower();
     int getExtraSpeed();
-    int getTurboSpeed();
+    int getSpeed();
 
     // Setters
     void setFightPower(int);
